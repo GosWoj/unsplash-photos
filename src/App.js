@@ -63,6 +63,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("test");
     setPage(1);
   };
 
